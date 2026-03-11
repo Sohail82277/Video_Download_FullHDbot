@@ -2,8 +2,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, MessageHandler, CallbackQueryHandler, filters, ContextTypes
 import yt_dlp
 
-TOKEN = 
-"8589633230:AAG1BznTzIWgCsxLPwxGG6vb87qHHw9UCSA"
+TOKEN =  "8589633230:AAF-V_lWvFv-bto80voHxBwb0DctxyBEPUk"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("Send a video link")
